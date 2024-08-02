@@ -11,3 +11,11 @@ Abrir Nuget Gallery
 Ctrl + Shift + P - Pesquisar Nuget
 
 
+dotnet tool install --global dotnet-ef --version 8.0.7
+
+dotnet tool update --global dotnet-ef --version 8.0.7
+
+dotnet ef migrations add inicializando-banco
+
+dotnet ef database update
+
