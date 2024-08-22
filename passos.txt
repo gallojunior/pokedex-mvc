@@ -19,5 +19,12 @@ dotnet ef migrations add inicializando-banco
 
 dotnet ef database update
 
+
+
+TODA AULA:
+dotnet ef database update
 SQL Inserir Dados e executar no Workbench
+
+
+
 
