@@ -26,5 +26,14 @@ dotnet ef database update
 SQL Inserir Dados e executar no Workbench
 
 
+dotnet tool install -g dotnet-aspnet-codegenerator
+
+dotnet-aspnet-codegenerator controller
+    -name <NomeController>
+    -m <ClasseDados>
+    -dc <ClasseContexto>
+    -l <DefinirUmLayout>  // -udl ParaLayoutPadrão
+    --relativeFolderPath Controllers
 
 
+dotnet-aspnet-codegenerator controller -name TiposController -m Tipo -dc AppDbContext -l "~/Views/Shared/_LayoutAdmin.cshtml" --relativeFolderPath Controllers
